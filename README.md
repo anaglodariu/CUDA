@@ -1,6 +1,7 @@
 Tema 2 ASC - Glodariu Ana
 
 Implementarea in CUDA a logicii din cpu_miner
+--
 Paralelizarea cautarii nonce-ului, folosind CUDA Threads l-am facut astfel:
 - mi-am creat atatea CUDA threads cate nonce-uri posibile aveam de verificat (de la 1 la MAX_NONCE inclusiv)
     - mi-am definit 256 ca dimensiunea unui bloc de thread-uri, iar numarul de blocuri din grid l-am calculat
